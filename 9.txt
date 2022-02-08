@@ -1,0 +1,8 @@
+fun main() {
+    var a = 7
+    var b = 5
+    var x = a+b
+    var z = x * 2 
+    var v = z * a
+    println("El Valor De X Es : $v")
+}

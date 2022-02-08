@@ -1,0 +1,12 @@
+fun main() {
+    var name = "Pepito Perez"
+    var doc = 10934566
+    var age = 21
+    var prof = "Estudiante"
+    println("Datos Ingresados:")
+    println("Nombre Completo: $name")
+    println("Documento: $doc")
+    println("Edad: $age")
+    println("Profesion: $prof")
+    println("Bienvenido!!!")
+}

@@ -1,0 +1,9 @@
+fun main() {
+    println("Ingrese su sueldo: ")
+    var sueldo = readLine()!!.toInt()
+    println("Ingrese sus horas extras trabajadas: ")
+    var horas = readLine()!!.toInt()
+    var hr = horas * 3000
+    var total = sueldo + hr
+    println("Su Sueldo Total Es De: $total")
+}

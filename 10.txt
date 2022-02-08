@@ -1,0 +1,7 @@
+fun main() {
+    var a = 10.89
+    var b = 56.78
+    var c = 34.13
+    var sumdec = a + b + c
+    println("El Resultado De La Suma Es: $sumdec")
+}

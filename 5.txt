@@ -1,0 +1,6 @@
+fun main() {
+    println("Ingrese su salario anterior: ")
+    var valor = readLine()!!.toInt()
+ 	porc = valor * 25
+    println("Su nuevo salario con un incremento de un 25% es de $porc")
+}

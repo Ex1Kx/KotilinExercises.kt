@@ -1,0 +1,6 @@
+fun main() {
+    println("Ingrese un valor: ")
+    var valor = readLine()!!.toInt()
+ 	porc = 15 * valor / 100
+    println("El 15% de 60 es $porc%")
+}

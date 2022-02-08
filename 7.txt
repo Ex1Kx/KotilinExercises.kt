@@ -1,0 +1,13 @@
+fun main() {
+    println("Ingrese el costo de las entradas: ")
+    var entr = readLine()!!.toInt()
+    println("Ingrese el costo del tratamiento: ")
+    var trat = readLine()!!.toInt()
+    println("Ingrese el numero de dias de hospitalizacion: ")
+    var dias = readLine()!!.toInt()
+    println("Ingrese el costo de los medicamentos: ")
+    var med = readLine()!!.toInt()
+    var days = dias * 100000
+    var total = entr + trat + days + med
+    println("El valor a pagar en el hospital es de: $total")
+}

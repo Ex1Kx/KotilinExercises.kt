@@ -1,0 +1,11 @@
+fun main() {
+    var c  = 8
+    var a = 2
+    var b = -2
+    var d = (a*b) + 2
+    var e = a -2 +b * (b+3) - c
+    var f = d
+    println("El Valor De C Es: $d")
+    println("El Valor De A Es: $e")
+    println("El valor De B Es: $f")
+}

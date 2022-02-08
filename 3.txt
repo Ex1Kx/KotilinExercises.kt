@@ -1,0 +1,4 @@
+fun main() {
+ var porc = 15 * 80 / 100
+    println("El 15% de 60 es $porc%")
+}
